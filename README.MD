@@ -44,7 +44,7 @@ Step4: convertor.convert(6686787825)
 
 
 
-##Testing
+### Testing
 
 Rspec helper is included with sample test data (spec/sample_output.json)
 

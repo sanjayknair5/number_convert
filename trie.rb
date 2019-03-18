@@ -8,12 +8,12 @@ class Trie
     @value = value
     @flag = false #flag to represent that a word ends at this node
   end
-  
+
   def add char
     val = value ? value + char : char
     children[char] = Trie.new val
   end
-  
+
   def insert word
     node = self
     word.each_char do |char|
@@ -22,7 +22,7 @@ class Trie
     end
     node.flag = true
   end
-  
+
   def check_word word
     node = self
     word.each_char do |char|
@@ -35,20 +35,20 @@ class Trie
   def find word
     check =  check_word word
     if !check.nil? && check.flag
-       return check.value
-    else 
-       return nil
-    end  
+      return check.value
+    else
+      return nil
+    end
   end
-  
+
   def check_tree word
     check =  check_word word
     unless check.nil?
-      return {value: check.value,word_end: check.flag} 
-    else  
-    return nil
+      return {value: check.value,word_end: check.flag}
+    else
+      return nil
     end
-  end  
-  
+  end
+
 
 end

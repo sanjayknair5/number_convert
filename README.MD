@@ -1,7 +1,7 @@
 # PHONE NUMBER TO STRING CONVERTOR
 
 
-The phone number to string convertor converts a 10 digit phone number to relewant word or combination of words. We can generate numbers like 1-800-motortruck which is easier to remember than 1-800-6686787825
+Phone number to string convertor converts a 10 digit phone number to relewant word or combination of words. We can generate numbers like 1-800-motortruck which is easier to remember than 1-800-6686787825
 
 The phone numbers will never contain a 0 or 1. 
 Words have to be at least 3 characters.

@@ -35,9 +35,14 @@ Finally all words are checked for possible combination and result is populated a
 Navigate to root directory of the repo
 
 Step1: irb
+
 Step2: load "number_convert.rb"
+
 Step3: convertor = NumberConvert.new
+
 Step4: convertor.convert(6686787825)
+
+
 
 ##Testing
 
